@@ -85,13 +85,16 @@ h1{
 .footer__top__title{
 	font-size: 3vh;
 	font-weight: bold;
+	object-fit: scale-down;
 }
 .footer__top__text{
 	font-size: 2.8vh;
 	margin-bottom: 1vw;
+	object-fit: scale-down;
 }
 .footer__bmargin{
 	margin-bottom: 1vw;
+	object-fit: scale-down;
 }
 .footer__top__field{
 	display: flex;
@@ -143,7 +146,7 @@ h1{
 	margin-bottom: 3vw;
 }
 .contact__image img{
-	width: 5vw;
+	width: 4vw;
 }
 
 /*.gallery-style*/
@@ -204,6 +207,7 @@ h1{
 .stripe{
 	margin-top: 1.4vh;
 	margin-bottom: 1.4vh;
+	outline: none;
 }
 .scrollable{
 	overflow-y: auto;
@@ -215,6 +219,9 @@ br{
 	margin-bottom: 1vh;
 	margin-top: 1vh;
 }
+button{
+	outline: none;
+}
 
 /*.animation-things*/
 strong{
@@ -225,7 +232,6 @@ strong{
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 }
-
 @keyframes colorchange {
 	0% {color: red;}
 	20% {color: violet;}
@@ -233,4 +239,16 @@ strong{
 	60% {color: green;}
 	80% {color: yellow;}
 	100% {color: red;}
+}
+
+/*.media-queries*/
+
+@media screen and (max-width 480px){
+
+}
+@media screen and (max-width 768px){
+
+}
+@media screen and (max-width 1024){
+
 }
